@@ -13,12 +13,12 @@ specifiers:
   tsup: ^6.2.3
   typescript: ^4.8.2
   vitest: ^0.22.1
-  yup: 1.0.0-beta.7
+  yup: 1.6.1
 
 dependencies:
   axios: 0.27.2
   query-string: 7.1.1
-  yup: 1.0.0-beta.7
+  yup: 1.6.1
 
 devDependencies:
   '@typescript-eslint/eslint-plugin': 5.36.1_lbwfnm54o3pmr3ypeqp3btnera
@@ -2343,6 +2343,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /type-fest/2.19.0:
+    resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
+    engines: {node: '>=12.20'}
+    dev: false
+
   /typescript/4.8.2:
     resolution: {integrity: sha512-C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==}
     engines: {node: '>=4.2.0'}
@@ -2483,10 +2488,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /yup/1.0.0-beta.7:
-    resolution: {integrity: sha512-92JeJR5ZY6xh7OKybO1cG/dNJa2cLnNTR+WDoZiCh7WUbuwK9lxBrPPDjSImSYbM5TTQS8CFk5JVE06j07Wwdw==}
+  /yup/1.6.1:
+    resolution: {integrity: sha512-JED8pB50qbA4FOkDol0bYF/p60qSEDQqBD0/qeIrUCG1KbPBIQ776fCUNb9ldbPcSTxA69g/47XTo4TqWiuXOA==}
     dependencies:
       property-expr: 2.0.5
       tiny-case: 1.0.3
       toposort: 2.0.2
+      type-fest: 2.19.0
     dev: false
